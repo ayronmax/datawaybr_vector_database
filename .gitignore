@@ -1,0 +1,6 @@
+.DS_Store
+.venv
+.idea
+
+src/edai_0001/03-text/data
+src/edai_0001/04-images/data
