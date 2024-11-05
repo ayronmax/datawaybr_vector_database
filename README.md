@@ -1,7 +1,7 @@
 # Vector Databases
 
 ## Passo 1 - Introdução a Banco de Dados Vetoriais
-Obsidian 
+Assistir o video de introdução ao assunto
 
 ## Passo 2 - Deploy do Qdrant (VectorDB)
 ```bash
@@ -15,6 +15,13 @@ Vamos utilizar os Embeddings da OpenAI para texto
 ```python
 from langchain_openai import OpenAIEmbeddings
 embedding_model = OpenAIEmbeddings()
+```
+
+Lemnbre-se de declarar a variável de ambiente com sua chave:
+
+```shell
+# Chave de EXEMPLO
+export OPENAI_API_KEY="sk-proj-OqUM-FjvZO050EHEIl-X3MNqfbasDG5JwAIiyLINslDdasX17yvMG23NT3BlbkFJALCdfUBLXQlsZPzscruaYPMpjvdfa3XsuasgN4kaVRcsEA”
 ```
 
 ## Passo 4 - Trabalhando com imagens
